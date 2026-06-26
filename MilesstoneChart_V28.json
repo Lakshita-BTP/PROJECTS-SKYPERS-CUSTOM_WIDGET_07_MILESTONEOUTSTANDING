@@ -1,0 +1,85 @@
+{
+  "id": "com.max.milestoneoutstanding",
+  "version": "1.0.28",
+  "name": "Milestone Wise Outstanding",
+  "newInstancePrefix": "MilestoneOutstanding",
+  "vendor": "MAX",
+  "supportsExport": true,
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSI4IiBmaWxsPSIjMTUyNjNBIi8+PHBhdGggZD0iTTE0IDE0IEwxNCA0MiIgc3Ryb2tlPSIjRkZDMTA3IiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTQgMTQgQzE4IDE0IDIyIDE0IDI2IDE2IEwyNCAyMiBMMjYgMjggQzIyIDMwIDE4IDMwIDE0IDMwIFoiIGZpbGw9IiNGRkMxMDciLz48cmVjdCB4PSIzNCIgeT0iMTYiIHdpZHRoPSIxNCIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iI0ZGRkZGRiIvPjxyZWN0IHg9IjM0IiB5PSIyNiIgd2lkdGg9IjEwIiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjRkZGRkZGIi8+PHJlY3QgeD0iMzQiIHk9IjM2IiB3aWR0aD0iMTgiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiNFMjZBMDAiLz48L3N2Zz4=",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-max-milestoneoutstanding",
+      "url": "https://cdn.jsdelivr.net/gh/Lakshita-BTP/PROJECTS-SKYPERS-CUSTOM_WIDGET_07_MILESTONEOUTSTANDING@main/MilesstoneChart_V28.js",
+      "integrity": "sha384-bQlpOmWcuQ1cH4FUOD1he1u8Y/Rz5OU0bb4e7Bi8DivV3DRwZxZoYeeNcW55NhD+"
+    }
+  ],
+  "dataBindings": {
+    "myDataBinding": {
+      "feeds": [
+        {
+          "id": "dimensions",
+          "type": "dimension",
+          "description": "Milestone"
+        },
+        {
+          "id": "measures",
+          "type": "mainStructureMember",
+          "description": "Measures"
+        }
+      ]
+    }
+  },
+  "properties": {},
+  "methods": {
+    "setTitle": {
+      "parameters": [
+        {
+          "name": "title",
+          "type": "string"
+        }
+      ]
+    },
+    "setHeaderBackground": {
+      "parameters": [
+        {
+          "name": "color",
+          "type": "string"
+        }
+      ]
+    },
+    "setCardBackground": {
+      "parameters": [
+        {
+          "name": "color",
+          "type": "string"
+        }
+      ]
+    },
+    "setBarColor": {
+      "parameters": [
+        {
+          "name": "color",
+          "type": "string"
+        }
+      ]
+    },
+    "setTotalInvoiced": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "number"
+        }
+      ]
+    },
+    "setTotalOutstanding": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "number"
+        }
+      ]
+    }
+  },
+  "events": {}
+}
